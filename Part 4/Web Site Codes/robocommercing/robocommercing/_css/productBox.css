@@ -1,0 +1,36 @@
+.productBox{
+    width: 180px;
+    height: 230px;
+    float: left;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.divProductName{
+    display: block;
+    font-size: 12px;
+    font-family: Arial;
+    height: 24px;
+}
+
+.divProductPrice{
+    display: block;
+    margin-top: 7px;
+    font-size: 18px;
+    float: right;
+    color: #ff6a00;
+}
+
+.productBox:hover{
+    width: 180px;
+    height: 230px;
+    float: left;
+    -moz-box-shadow: 0 0 6px #978f6c; 
+    -webkit-box-shadow: 0 0 6px #978f6c;
+    background-color: #107010;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+}

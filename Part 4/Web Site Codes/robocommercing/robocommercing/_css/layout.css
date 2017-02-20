@@ -1,0 +1,106 @@
+body {
+    font-family: Verdana,Arial,sans-serif;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+header #logo{
+    display: inline;
+    float: left;
+}
+
+header #memberInfo{
+    display: inline;
+    float: right;
+}
+
+nav{
+    background-image: url("../_img/layout/menu-bg.png");
+    background-repeat: repeat-x;
+}
+
+nav #mainPage{
+    width: 140px;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+nav #mainPage:hover{
+    text-decoration: none;
+    color: #f00;
+}
+
+.side{
+    background-color: #ccc;
+}
+
+#content a, #content a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+#profileSummary p{
+    padding-left: 10px;
+    line-height: 4px;
+}
+
+#bucket table{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#bucket th{
+    color:#818181; text-align: left; padding:7px 10px; border-bottom:solid 1px #d2d1cb;
+}
+#bucket td{
+    background:#fbfcfc;  border-bottom:solid 1px #e0e0e0; padding:8px 10px;
+}
+
+#profileEdit label{
+    display: block;
+    font-size: 1em;
+    font-family: Verdana;
+    font-weight: bold;
+    margin: 5px 10px;    
+}
+
+#profileEdit input, #profileEdit fieldset{
+    display: block;
+    font-size: 1em;
+    font-family: Verdana;
+    margin-left:  10px;
+    margin-bottom: 15px;
+}
+
+#register label{
+    display: block;
+    font-size: 1em;
+    font-family: Verdana;
+    font-weight: bold;
+    margin: 5px 10px;    
+}
+
+#register input, #profileEdit fieldset{
+    display: block;
+    font-size: 1em;
+    font-family: Verdana;
+    margin-left:  10px;
+    margin-bottom: 15px;
+}
+
+form #gender{
+    width: 30px;
+    margin-left: 10px;
+    display: inline;
+}
+
+footer{
+    background-image: url("../_img/layout/footer-bg.png");
+    background-repeat: repeat-x;
+    clear: both;
+}

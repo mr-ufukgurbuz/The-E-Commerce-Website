@@ -1,0 +1,8 @@
+
+Website ile database arasindaki baglantiyi yapabilmeniz icin database dosyasinda(.bak), bir kullanici(admin) tanimlamalisiniz.
+Bu kullanicinin bilgileri asagidaki gibi olmali;
+
+Database Kullanici Adi     : yonetici
+Database Kullanici Sifresi : 123456
+
+Bu tanimlamalardan sonra 'localhost' araciligiyla websitesini kullanabilirsiniz.
